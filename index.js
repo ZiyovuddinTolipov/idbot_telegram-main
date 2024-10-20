@@ -1,6 +1,6 @@
 const Telegraf = require("telegraf");
 
-let TOKEN = "BOT_TOKEN"
+let TOKEN = "BOT_TOKEN";
 const bot = new Telegraf(TOKEN);
 
 bot.catch((err) => {
@@ -102,15 +102,14 @@ bot.on("message", async (ctx) => {
   return ctx.reply(
     `
   🔸 Для того чтобы получить file_id, отправьте:
-  - 🙂 Стикер
-  - 🌄 Фото
-  - 🕳 Гиф
-  - 📹 Видео
-  - 🔈 Аудио
-  - 🗣 Голосовое сообщение
-  - 🗂 Документ
-  
-  - 📝 Гайд по вложениям /help`.replace(/ {16}/g, "")
+- 🙂 Stiker
+- 🌄 Surat
+- 🕳 GIF
+- 📹 Video
+- 🔈 Audio
+- 🗣 ​​Ovozli xabar
+- 🗂 Hujjat
+- 📝 Biriktirma qoʻllanmasi /help`.replace(/ {16}/g, "")
   );
 });
 
