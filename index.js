@@ -101,7 +101,7 @@ bot.on("document", async (ctx) => {
 bot.on("message", async (ctx) => {
   return ctx.reply(
     `
-  🔸 Для того чтобы получить file_id, отправьте:
+  🔸 file_id olish uchun yuboring:
 - 🙂 Stiker
 - 🌄 Surat
 - 🕳 GIF
